@@ -1,51 +1,51 @@
 #browser {
---colorFg: rgb(223, 227, 232) !important;  /* foreground text */
---colorFgAlpha: rgba(223, 227, 232, 0.1) !important; /* foreground text */
---colorFgIntense: rgb(223, 227, 232) !important; /* foreground text */
+--colorFg: rgb(225, 226, 230) !important;  /* foreground text */
+--colorFgAlpha: rgba(225, 226, 230, 0.1) !important; /* foreground text */
+--colorFgIntense: rgb(225, 226, 230) !important; /* foreground text */
 /*--colorFgFaded: rgb(0, 0, 0) !important; /* unfocused window foreground text */
 /*--colorFgFadedMore: rgb(0, 0, 0) !important; /* unfocused window foreground text */
 /*--colorFgFadedMost: rgb(0, 0, 0) !important; /* unfocused window foreground text */
---colorBg: rgb(42, 74, 96) !important; /* adress bar and selected tab and settings sidebar */
---colorBgAlpha: rgba(42, 74, 96, 0.9) !important; /* adress bar and selected tab and settings sidebar */
---colorBgAlphaHeavy: rgba(42, 74, 96, 0.65) !important; /* adress bar and selected tab and settings sidebar */
---colorBgAlphaHeavier: rgba(42, 74, 96, 0.25) !important; /* adress bar and selected tab and settings sidebar */
---colorBgAlphaBlur: rgb(16, 20, 23) !important; /* adress bar and selected tab */
---colorBgDark: rgb(16, 20, 23) !important; /* n/a */
+--colorBg: rgb(54, 76, 91) !important; /* adress bar and selected tab and settings sidebar */
+--colorBgAlpha: rgba(54, 76, 91, 0.9) !important; /* adress bar and selected tab and settings sidebar */
+--colorBgAlphaHeavy: rgba(54, 76, 91, 0.65) !important; /* adress bar and selected tab and settings sidebar */
+--colorBgAlphaHeavier: rgba(54, 76, 91, 0.25) !important; /* adress bar and selected tab and settings sidebar */
+--colorBgAlphaBlur: rgb(17, 20, 22) !important; /* adress bar and selected tab */
+--colorBgDark: rgb(17, 20, 22) !important; /* n/a */
 --colorBgDarker: rgb(0, 0, 0) !important; /* n/a */
---colorBgLight: rgb(10, 13, 15) !important; /* unfocused adress bar and selected tab */
---colorBgLighter: rgb(31, 39, 45) !important; /* unfocused adress bar and selected tab */
---colorBgLightIntense: rgb(31, 39, 45) !important; /* n/a */
---colorBgIntense: rgb(16, 20, 23) !important; /* search field */
+--colorBgLight: rgb(11, 13, 14) !important; /* unfocused adress bar and selected tab */
+--colorBgLighter: rgb(33, 39, 43) !important; /* unfocused adress bar and selected tab */
+--colorBgLightIntense: rgb(33, 39, 43) !important; /* n/a */
+--colorBgIntense: rgb(17, 20, 22) !important; /* search field */
 --colorBgIntenser: rgb(0, 0, 0) !important; /* search field */
 --colorBgIntserAlpha: rgba(0, 0, 0, 0.92) !important; /* search field */
---colorBgInverse: rgb(63, 72, 79) !important; /* only on crtl+f => not found */
+--colorBgInverse: rgb(64, 72, 78) !important; /* only on crtl+f => not found */
 --colorBgInverser: rgb(22, 25, 28) !important; /* only on crtl+f => not found */
-/*--colorBgFaded: rgb(138, 206, 255) !important; /* n/a */
---colorHighlightBg: rgb(138, 206, 255) !important; /* text highlight and search field border */
---colorHighlightBgFaded: rgb(0, 29, 51) !important;  /* text highlight and search field border */
---colorHighlightBgAlpha: rgba(138, 206, 255, 0.1) !important; /* text highlight and search field border */
+/*--colorBgFaded: rgb(145, 206, 247) !important; /* n/a */
+--colorHighlightBg: rgb(145, 206, 247) !important; /* text highlight and search field border */
+--colorHighlightBgFaded: rgb(3, 29, 47) !important;  /* text highlight and search field border */
+--colorHighlightBgAlpha: rgba(145, 206, 247, 0.1) !important; /* text highlight and search field border */
 --colorHighlightBgDark: rgb(0, 0, 0) !important; /* text highlight and search field border */
---colorHighlightFg: rgb(0, 52, 78) !important; /* selected text */
---colorHighlightFgAlpha: rgba(0, 52, 78, 0.5) !important; /* selected text */
---colorHighlightFgAlphaHeavy: rgba(0, 52, 78, 0.25) !important; /* selected text */
---colorAccentBg: rgb(16, 20, 23) !important; /* tab bg color */
---colorAccentBgAlpha: rgba(16, 20, 23, 0.55) !important; /* tab bg color */
---colorAccentBgAlphaHeavy: rgba(16, 20, 23, 0.35) !important; /* tab bg color */
---colorAccentBgDark: rgb(24, 28, 32) !important; /* n/a */
---colorAccentBgDarker: rgb(10, 15, 18) !important; /* n/a */
---colorAccentBgFaded: rgb(16, 20, 23) !important; /* unfocused tab bg color */
---colorAccentBgFadedMore: rgb(24, 28, 32) !important; /* n/a */
---colorAccentBgFadedMost: rgb(10, 15, 18) !important; /* n/a */
---colorAccentBorder: rgb(63, 72, 79) !important; /* n/a */
+--colorHighlightFg: rgb(0, 52, 76) !important; /* selected text */
+--colorHighlightFgAlpha: rgba(0, 52, 76, 0.5) !important; /* selected text */
+--colorHighlightFgAlphaHeavy: rgba(0, 52, 76, 0.25) !important; /* selected text */
+--colorAccentBg: rgb(17, 20, 22) !important; /* tab bg color */
+--colorAccentBgAlpha: rgba(17, 20, 22, 0.55) !important; /* tab bg color */
+--colorAccentBgAlphaHeavy: rgba(17, 20, 22, 0.35) !important; /* tab bg color */
+--colorAccentBgDark: rgb(25, 28, 30) !important; /* n/a */
+--colorAccentBgDarker: rgb(12, 15, 17) !important; /* n/a */
+--colorAccentBgFaded: rgb(17, 20, 22) !important; /* unfocused tab bg color */
+--colorAccentBgFadedMore: rgb(25, 28, 30) !important; /* n/a */
+--colorAccentBgFadedMost: rgb(12, 15, 17) !important; /* n/a */
+--colorAccentBorder: rgb(64, 72, 78) !important; /* n/a */
 --colorAccentBorderDark: rgb(0, 0, 0) !important; /* n/a */
---colorAccentFg: rgb(223, 227, 232) !important;  /* tab titles and vivaldi sign */
+--colorAccentFg: rgb(225, 226, 230) !important;  /* tab titles and vivaldi sign */
 --colorAccentFgFaded: rgb(0, 0, 0) !important; /* tab titles and vivaldi sign */
---colorAccentFgAlpha: rgba(223, 227, 232, 0.15) !important; /* tab titles and vivaldi sign */
---colorAccentFgAlphaHeavy: rgba(223, 227, 232, 0.35) !important; /* tab titles and vivaldi sign */
---colorBorder: rgb(137, 146, 154) !important; /* some borders */
---colorBorderDisabled: rgb(138, 206, 255) !important; /* some borders disabled */
+--colorAccentFgAlpha: rgba(225, 226, 230, 0.15) !important; /* tab titles and vivaldi sign */
+--colorAccentFgAlphaHeavy: rgba(225, 226, 230, 0.35) !important; /* tab titles and vivaldi sign */
+--colorBorder: rgb(138, 146, 152) !important; /* some borders */
+--colorBorderDisabled: rgb(145, 206, 247) !important; /* some borders disabled */
 --colorBorderSubtle: rgb(0, 0, 0) !important; /* some borders disabled */
---colorBorderIntense: rgb(63, 72, 79) !important; /* some borders disabled */
+--colorBorderIntense: rgb(64, 72, 78) !important; /* some borders disabled */
 --colorSuccessBg: rgb(118 100.00% 32.75%);
 --colorSuccessBgAlpha: rgba(118 100.00% 32.75% / 0.10);
 --colorSuccessFg: rgb(0 0.00% 100.00%);
@@ -63,5 +63,5 @@
 .vivaldi-settings,
 .settings-content,
 .settings-sidebar {
-  background-color: rgb(16, 20, 23) !important;
+  background-color: rgb(17, 20, 22) !important;
 }
