@@ -14,15 +14,13 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 
 -- New binds
 hl.bind(mainMod .. " + SHIFT + R", hl.dsp.exec_cmd("~/.config/waybar/scripts/launch.sh"))
---hl.bind("CTRL + PRINT", hl.dsp.exec_cmd('GRIMBLAST_EDITOR="satty --filename" grimblast --freeze edit area'))
---hl.bind("PRINT",        hl.dsp.exec_cmd('GRIMBLAST_EDITOR="satty --filename" grimblast --freeze edit output'))
-hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("nwg-clipman"))
-hl.bind(
-	mainMod .. " + V",
-	hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy && wtype -M ctrl shift -P v -m ctrl")
-)
+hl.bind("CTRL + PRINT", hl.dsp.exec_cmd("grimblast --freeze edit area"))
+hl.bind("PRINT",        hl.dsp.exec_cmd("grimblast --freeze edit output"))
+hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("nwg-clipman"))
+--hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("cliphist list | rofi -dmenu | cliphist decode | wl-copy && wtype -M ctrl shift -P v -m ctrl"))
+--hl.bind(mainMod .. " + SHIFT + V", hl.dsp.exec_cmd("rofi -modi 'clipboard:greenclip print' -show clipboard -run-command '{cmd}' && sleep 0.1 && wl-paste | wtype -"))
 hl.bind(mainMod .. " + SHIFT + SPACE", hl.dsp.exec_cmd("waypaper"))
-hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("vivaldi"))
+hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("helium-browser"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
@@ -31,10 +29,10 @@ hl.bind(mainMod .. " + up", hl.dsp.focus({ direction = "up" }))
 hl.bind(mainMod .. " + down", hl.dsp.focus({ direction = "down" }))
 
 -- Resize window
-hl.bind(mainMod .. " + ALT + L", hl.dsp.window.resize({ x = 20, y = 0 }))
-hl.bind(mainMod .. " + ALT + J", hl.dsp.window.resize({ x = -20, y = 0 }))
-hl.bind(mainMod .. " + ALT + I", hl.dsp.window.resize({ x = 0, y = -20 }))
-hl.bind(mainMod .. " + ALT + K", hl.dsp.window.resize({ x = 0, y = 20 }))
+hl.bind(mainMod .. " + ALT + L", hl.dsp.window.resize({ x = 20, y = 0, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + J", hl.dsp.window.resize({ x = -20, y = 0, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + I", hl.dsp.window.resize({ x = 0, y = -20, relative = true }), { repeating = true })
+hl.bind(mainMod .. " + ALT + K", hl.dsp.window.resize({ x = 0, y = 20, relative = true }), { repeating = true })
 
 -- Switch workspaces / move window to workspace
 for i = 1, 10 do

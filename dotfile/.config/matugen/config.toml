@@ -6,6 +6,10 @@ set = true
 #[config.custom_keywords]
 #opacity = '0.6'
 
+[templates.rmpc]
+input_path = '~/.config/matugen/templates/rmpc.ron'
+output_path = '~/.config/rmpc/themes/matugen.ron'
+
 [templates.alacritty]
 input_path = '~/.config/matugen/templates/alacritty.toml'
 output_path = '~/.config/alacritty/colors.toml'
@@ -27,6 +31,7 @@ post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings s
 [templates.gtk4]
 input_path = '~/.config/matugen/templates/gtk-colors.css'
 output_path = '~/.config/gtk-4.0/colors.css'
+post_hook = '~/.config/matugen/post-hook-scripts/gtk-themes-reload.sh'
 
 [templates.qt5ct]
 input_path = '~/.config/matugen/templates/qtct-colors.conf'
@@ -88,6 +93,8 @@ output_path = '~/.config/wlogout/colors.css'
 input_path = '~/.config/matugen/templates/vivaldi.css'
 output_path = '~/.config/vivaldi/CustomCSS/vivaldi_css/vivaldi.css' 
 
-
+[templates.firefox-website-colors]
+input_path = "~/.config/matugen/templates/firefox-colors.css"
+output_path = "~/.config/mozilla/firefox/wf1mja9s.default-release/chrome/colors.css"
 
 

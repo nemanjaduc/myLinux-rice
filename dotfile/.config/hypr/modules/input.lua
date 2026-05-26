@@ -12,6 +12,7 @@ hl.config({
         kb_rules   = "",
 
         follow_mouse = 1,
+	force_no_accel = false;
 
         sensitivity = 0, -- -1.0 - 1.0, 0 means no modification.
 
@@ -36,5 +37,10 @@ hl.gesture({
 hl.device({
     name        = "epic-mouse-v1",
     sensitivity = -0.5,
+})
+
+hl.device({
+    name        = "55e7bacd3210",
+    sensitivity = 1,
 })
 

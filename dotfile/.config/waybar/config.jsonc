@@ -53,16 +53,18 @@
             "firefox": " firefox",
             "zen": " zen",
             "brave-browser": " brave",
-            "helium": " helium",
+            "helium": "  helium",
             "vivaldi-stable": " vivaldi",
             "chromium": " chromium",
             "kitty": " kitty",
-	    "alacritty": "  alacritty",
+	        "alacritty": "  alacritty",
             "spotify": " spotify",
             "code": "󰨞 code",
+            "codium": "󰨞 codium",
             "com.ayugram.desktop": " telegram",
             "vesktop": "  vesktop",
-            "steam": " steam"
+            "steam": " steam",
+            "thunar": "  thunar"
         }
     },
     /*--------------Pacman--------------------*/
