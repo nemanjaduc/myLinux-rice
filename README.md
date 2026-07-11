@@ -10,6 +10,12 @@ sudo pacman -S fcitx5 fcitx5-bamboo fcitx5-configtool fcitx5-qt fcitx5-gtk fcitx
 ```  
 
 ## Zalo  
+Clone the repository:
 ```
-git clone https://github.com/ducseul/zalo-linux-unofficial.git && cd zalo-linux-unofficial && bash install.sh
-```  
+git clone https://github.com/realdtn2/zalo-linux-2026.git
+cd zalo-linux-2026
+```
+Run the install script:
+```
+./install.sh
+```
