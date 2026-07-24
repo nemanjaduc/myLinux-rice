@@ -1,0 +1,15 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://niri-wm.github.io/niri/Configuration:-Introduction
+
+include "modules/autostart.kdl"
+include "modules/binds.kdl"
+include "modules/monitor.kdl"
+include "modules/input.kdl"
+include "modules/windowrule.kdl"
+include "modules/animation.kdl"
+include "modules/misc.kdl"
+include "colors.kdl"
+
+

@@ -1,0 +1,39 @@
+layout {
+    gaps 5
+    center-focused-column "never"
+    preset-column-widths {
+        proportion 0.33333
+        proportion 0.5
+        proportion 0.66667
+    }
+
+    default-column-width { proportion 0.5; }
+    focus-ring {
+        width 6
+        active-color "#7aa2f7"
+        inactive-color "#a9b1d6"
+	off    
+}
+    background-color "transparent"
+    // You can also add a border. It's similar to the focus ring, but always visible.
+    border {
+	off
+	width 3
+        active-color "#ffc87f"
+        inactive-color "#505050"
+        urgent-color "#9b0000"
+        draw-behind-window true
+}
+    shadow {
+        softness 30
+        spread 5
+        offset x=0 y=5
+        color "#0007"
+    }
+    struts {
+        left 0
+        right 0
+        top 0
+        bottom 0
+    }
+}

@@ -1,0 +1,45 @@
+input {
+    keyboard {
+	    repeat-rate 35
+	    repeat-delay 200
+        xkb {
+        }
+        numlock
+    }
+
+    touchpad {
+        // off
+        tap
+       	dwt
+        // dwtp
+        // drag false
+        // drag-lock
+        natural-scroll
+        // accel-speed 1
+        // accel-profile "flat"
+        // scroll-method "two-finger"
+        // disabled-on-external-mouse
+    }
+
+    mouse {
+        // off
+        // natural-scroll
+        accel-speed 0.2
+        accel-profile "flat"
+        scroll-method "on-button-down"
+	scroll-button 274
+    }
+
+    trackpoint {
+        // off
+        // natural-scroll
+        // accel-speed 0.2
+        // accel-profile "flat"
+        // scroll-method "on-button-down"
+        // scroll-button 273
+        // scroll-button-lock
+        // middle-emulation
+    }
+    focus-follows-mouse max-scroll-amount="0%"
+}
+
